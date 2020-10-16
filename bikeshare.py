@@ -29,7 +29,7 @@ def get_filters():
             print('Oops, ', city , 'doesn\'t seem to be a city that I know. Remember, you can choose between Chicago, New York or Washington. Please try again!')
             city = str(input().lower())
     
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # Get user input for month (all, january, february, ... , june)
     print("Great! You choose {}. Would you like to filter by month?".format(city.title()))
     filter_by_month = str(input().lower())
     
@@ -51,7 +51,7 @@ def get_filters():
     else:
         month = 'all months'
     
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # Get user input for day of week (all, monday, tuesday, ... sunday)
     print("Ok, last question! Would you like to filter by a specific day of the week?")
     filter_by_day = str(input().lower())
     
@@ -59,7 +59,7 @@ def get_filters():
         print('Seems that I didn\'t get that... Would you like to filter by day? Please type yes or no.')
         filter_by_day = str(input().lower())
 
-    #declare available days for input
+    # Declare available days for input
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     
     if filter_by_day == 'yes':
