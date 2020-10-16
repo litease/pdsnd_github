@@ -5,7 +5,7 @@ Friday, 16 Oct 2020
 Niklas Final Project Submission!
 
 ### Description
-Describe what your project is about and what it does
+This is the project submission for "Introduction to Version Control" in "Programming for Data Science with Python Nanodegree Program" which will showcase the Python project, where bikesharing data is analyzed using Python, and mastering of Git.
 
 ### Files used
 Include the files used
